@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<head>
+<title>Ajaxing on Spotify</title>
+
+<link rel='stylesheet' media='screen' type='text/css' href='style.css'/>
+<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+  <h1>find some beats</h1>
+  <input type="text" id="search-keyword">
+ 
+  <select id="search-type">
+    <option value="artist">Search by artist</option>
+    <option value="album">Search by album</option>
+    <option value="track">Search by track name</option>
+  </select>
+
+  <button id="find">find</button>
+  <div id="image"></div>
+  <ul id="results"></ul>
+ 
+
+<script src='http://code.jquery.com/jquery-latest.min.js'></script>
+<script src='app.js'></script>
+</body>
+
+
+</html>
